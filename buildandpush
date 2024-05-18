@@ -1,0 +1,2 @@
+sudo docker build -t testimage .; sudo docker tag testimage tommcgreal11/testimage
+sudo docker push tommcgreal11/testimage

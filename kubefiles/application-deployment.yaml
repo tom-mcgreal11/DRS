@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: permanent-pod-test
+spec:
+  templates:
+    spec:
+      containers:
+        - name: postgres
+          image: looping-image-test
